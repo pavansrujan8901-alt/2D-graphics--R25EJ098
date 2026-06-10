@@ -1,0 +1,35 @@
+2D Graphics Editor Using C
+Project Description
+
+This project implements a simple 2D Graphics Editor in the C programming language using a 2D character array. The editor allows users to create and manage graphical objects on a text-based canvas using * and _ characters.
+
+The application supports the following operations:
+
+Add a Rectangle
+Add a Line
+Add a Triangle
+Add a Circle
+Delete existing objects
+Modify existing objects
+Display all objects
+Render the drawing canvas
+
+The canvas is stored as a two-dimensional array of characters, where * represents the drawn shape and _ represents empty space. All created shapes are stored in a structure array, enabling efficient editing, deletion, and redrawing of objects.
+
+Features
+Interactive menu-driven interface
+Draws geometric shapes using ASCII characters
+Supports object management (add, delete, modify)
+Maintains multiple shapes simultaneously
+Automatically redraws the canvas after modifications
+Uses structures to store shape information
+Technologies Used
+Programming Language: C
+Data Structures: Arrays and Structures
+Concepts: Functions, Loops, Conditional Statements, Graphics Simulation using ASCII Characters
+Learning Outcomes
+Understanding 2D arrays
+Implementing shape drawing algorithms
+Managing objects using structures
+Developing menu-driven applications
+Applying basic computer graphics concepts in C
